@@ -8,7 +8,7 @@
       include_vars:
         file: vars.yml
     - name: Create a APPID instance
-      ibm_is_instance:
+      ibm_resource_instance:
         name: "{{ instance_name }}"
         service: "appid"
         plan: "{{ plan_type }}"
