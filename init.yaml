@@ -3,4 +3,4 @@
   hosts: locahost
   tasks:
   - name: Install collection ibmcloud
-    command: ansible-galaxy collection install ibm.cloudcollection
+    command: "ansible-galaxy collection install ibm.cloudcollection"
